@@ -72,7 +72,6 @@ class SoapClient
     protected ?TransferStats $transferStats = null;
 
     protected string $wsdl = '';
-
     protected bool $isClientBuilded = false;
 
     protected array $middlewares = [];
